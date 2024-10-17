@@ -15,6 +15,7 @@
 # Top level CMake file that defines targets for the Firebase C++ SDK.
 
 cmake_minimum_required(VERSION 3.5)
+project(FIREBASE_CPP_SDK LANGUAGES C CXX)
 
 include(FindPkgConfig)
 
